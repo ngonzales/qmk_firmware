@@ -1,4 +1,4 @@
-/* Copyright 2015-2017 Jack Humbert
+/* Copyright 2015-2019 Nathaniel Gonzales
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -113,10 +113,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_LOWER] = LAYOUT_planck_grid(
-LALT(KC_TAB), KC_BSPC, _______, KC_UP,   _______, KC_DEL, KC_EQL,  KC_ASTR, KC_PSLS, KC_LPRN, KC_RPRN, _______,
- _______,     KC_HOME, KC_LEFT, KC_DOWN, KC_RGHT, KC_END,  KC_EQL,  KC_PLUS, KC_MINS, KC_LCBR, KC_RCBR, KC_DQUO,
- _______,     _______, _______, _______, _______, _______, _______, KC_UNDS, _______, KC_LBRC, KC_RBRC, KC_BSLS,
- _______,     _______, _______, _______, _______, _______, KC_LCTL, KC_LSFT, KC_PDOT, _______, _______, _______ 
+LALT(KC_TAB), KC_BSPC, _______,   KC_UP,  KC_APP,  KC_DEL,  KC_EQL,   KC_F5, KC_PSLS, KC_LPRN, KC_RPRN, _______,
+     _______, KC_HOME, KC_LEFT, KC_DOWN, KC_RGHT,  KC_END,  KC_EQL, KC_LCTL, KC_LALT, KC_LCBR, KC_RCBR, KC_DQUO,
+     _______, _______, _______, _______, _______, _______, _______, KC_UNDS, _______, KC_LBRC, KC_RBRC, KC_BSLS,
+     _______, _______, _______, _______, _______, _______, KC_LCTL, KC_LSFT, KC_LSFT, _______, _______, _______
 ),
 
 /* Raise
@@ -131,8 +131,8 @@ LALT(KC_TAB), KC_BSPC, _______, KC_UP,   _______, KC_DEL, KC_EQL,  KC_ASTR, KC_P
  * `-----------------------------------------------------------------------------------'
  */
 [_RAISE] = LAYOUT_planck_grid(
-_______, _______, _______, KC_AMPR, KC_PIPE, _______, _______, KC_DQUO, KC_QUOT, KC_GRAVE, _______, _______,
-_______, _______, _______, KC_EQUAL,KC_RABK, _______,  KC_EQL, KC_PLUS, KC_MINS, KC_ASTR,  KC_PSLS, _______,
+_______, _______, _______, KC_AMPR, KC_PIPE, _______, _______,   KC_F5,  KC_F12, KC_GRAVE, _______, _______,
+_______, _______, _______, KC_EQUAL,KC_RABK, _______,  KC_EQL, KC_DQUO, KC_QUOT, KC_GRAVE,  KC_PSLS, _______,
 _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,  _______, _______,
 _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,  _______, _______
 ),
