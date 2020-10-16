@@ -12,9 +12,10 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-TAP_DANCE_ENABLE=yes
-MOUSEKEY_ENABLE = yes
+# TAP_DANCE_ENABLE=yes
+# MOUSEKEY_ENABLE = yes
 
+UNICODE_ENABLE = yes
 
 ifndef QUANTUM_DIR
 	include ../../../../Makefile
